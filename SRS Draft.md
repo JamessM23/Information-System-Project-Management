@@ -92,20 +92,32 @@ Non-functional requirements describe how well the system should work.
    
     All in one care use cases
    
-* #	Use Case	Primary User	Description
-* UC-01	Create Account	Patient	User creates a new CareConnect account.
-* UC-02	Log In	Patient/Caregiver	User enters their credentials to securely access the application.
-* UC-03	Reset Password	Patient/Caregiver	User resets their password if they cannot access their account.
-* UC-04	View Dashboard	Patient/Caregiver	User views upcoming appointments, medication reminders, and notifications from the main dashboard.
-* UC-05	Add Appointment	Patient	User adds a new healthcare appointment to their account.
-* UC-06	Edit Appointment	Patient	User changes the date, time, provider, or other information for an existing appointment.
-* UC-07	Delete Appointment	Patient	User removes a canceled or incorrect appointment from their account.
-* UC-08	Add Medication	Patient	User adds a medication, dosage, and schedule to their account.
-* UC-09	Set Medication Reminder	Patient	User creates a reminder for when they need to take a medication.
-* UC-10	Update Medication	Patient	User changes or removes information about an existing medication.
-* UC-11	View Healthcare Information	Patient	User views their saved healthcare information through the application.
-* UC-12	Update Healthcare Information	Patient	User adds or updates healthcare information stored in their account.
-* UC-13	Add Caregiver	Patient	User invites a family member or caregiver to access selected information.
-* UC-14	Manage Caregiver Permissions	Patient	Patient selects what information an authorized caregiver can access.
-* UC-15	Receive Notifications	Patient/Caregiver	User receives reminders and notifications about appointments, medications, and other healthcare tasks.
-* 
+UC-01 Create Account Patient User creates a new CareConnect account.
+
+UC-02 Log In Patient/Caregiver User logs in to securely access the application.
+
+If a Patient/Caregiver User is unable to log on to their account, they can use UC-03 Reset Password Patient/Caregiver User to reset the password.
+
+UC-04 View Dashboard Patient/Caregiver has the upcoming appointments and medication reminders and notifications on its main dashboard.
+
+UC-05 Add Appointment Patient User: Adds a new healthcare appointment to their account.
+
+UC-06 Edit Appointment Patient User – edits the details of an appointment.
+
+UC-07 Delete Appointment Patient User deletes an appointment that has been canceled, or is incorrect.
+
+UC-08 Add Medication Patient User adds a medication, dosage, and schedule to their account.
+
+UC-09 Set Medication Reminder Patient User creates a reminder for when they need to take a medication.
+
+UC-10 Update Medication Patient User makes changes and/or removes details of an existing medication.
+
+UC-11 View Healthcare Information Patient User can access their saved healthcare information via the application.
+
+UC-12 Update Healthcare Information Patient User uploads or updates healthcare information in their account.
+
+A family member or caregiver is able to access certain information using the UC-13 Add Caregiver Patient User.
+
+UC-14 Manage Caregiver Permissions Patient Patient will determine what information the authorized caregiver will have access to.
+
+UC-15 Receive Notifications Patient/Caregiver User will get reminders and notifications for appointments, medications and other healthcare-related tasks. 
