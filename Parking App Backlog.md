@@ -2,9 +2,9 @@
 
 Login & Authentication 
 
-PBI-102: As a user/operator, I want to log in with my email/username and my password, so that I can access my application dashboard. PBI-102 : I as a new user want to create an account using my email, vehicle information and phone number, and be able to book a parking spot. 
+PBI-102: As a user/operator, I want to log in with my email/username and my password, so that I can access my application dashboard.
 
-PBI-103: As a user/operator I want to reset my forgotten password by using a secure email link so that I am able to get back into my account. 
+PBI-103: As a user/operator, I want to reset my forgotten password by using a secure email link so that I am able to get back into my account. 
 
 PBI-104 : As a user/operator, I want to be prompted for a second factor of authentication (FFA) when logging into my account, to make my account more secure.
 
