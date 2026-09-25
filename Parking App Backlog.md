@@ -12,7 +12,7 @@ PBI-104 : When logging into my account, as a user/operator, I would like to be a
  
  1.2 UI for Operator and User
  
- PBI-201 (User UI): Interactive Map & Search View for parking near you, parking rates and real time availability pins.
+PBI-201 (User UI): Interactive Map & Search View for parking near you, parking rates and real time availability pins.
 
 PBI-202 (User UI): Garage Detail Screen with Spot Visual Map, amenities (EV charging, Covered), hours and pricing tiers.
 
