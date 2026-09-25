@@ -14,11 +14,11 @@ PBI-104 : When logging into my account, as a user/operator, I would like to be a
  
 PBI-201 (User UI): Interactive Map & Search View for parking near you, parking rates and real time availability pins.
 
-PBI-202 (User UI): Garage Detail Screen with Spot Visual Map, amenities (EV charging, Covered), hours and pricing tiers.
+PBI-202 (User UI): Garage Detail Screen with Spot Visual Map, hours and pricing tiers.
 
-PBI-203 (User UI): Reservation & Spot Selection Interface, users can select their dates, time slots, and specific spots.
+PBI-203 (User UI): Reservation, users can select their dates, time slots, and specific spots.
 
-PBI-204 (User UI): Digital Pass & QR Code Screen for parking pass activation check on gate.
+PBI-204 (User UI): Digital Pass & QR Code Screen for parking pass activation.
 
 PBI-205 (User UI): Active Session Screen with a remaining parking time countdown, and the "Extend Session" button.
 
@@ -38,8 +38,35 @@ PBI-211 (Operator UI): Rate Management UI, to set up dynamic pricing, peak hours
 
 PBI-212 (Operator UI) Garage Profile & Facility Settings UI to configure operational hours, contact and total number of spots.
 
-Manual Entry/Exit Override Portal (PBI-213): Portal for manual override of entry/exit gate for vehicle operators to allow for vehicle access or to clear plate errors.
+ PBI-213 Portal for manual override of entry/exit gate for vehicle operators to allow for vehicle access or to clear plate errors.
 
 PBI-214 (Operator UI): Active Violations & Overstay Monitor UI shows the flag statements of unpaid/in overstayed vehicles.
 
 PBI-215 (Operator Staff & Role Management UI): Operator Staff & Role Management UI to create different levels of access to gate for shift to gate guards & managers. 
+
+1.3 Backend Processes for Operator and User User-Facing Backend Processes
+
+PBI-301 (User Backend): Real Time Reservation Engine to temporarily reserve a selected spot for 10 minutes during checkout to avoid double reserving. 
+
+PBI-302 (User Backend): Automated Payment & Settlement Microservice that integrates with Stripe/PayPal APIs to carry out pre-authorizations and charges. 
+
+PBI-303 (User Backend): QR Code/Digital Ticket Generator with Automation which creates signed and time-decaying validation tokens after successful payment. 
+
+PBI-304 (User Backend): Push & SMS Notification Service for reservation confirmation, 15 minutes expiration and extension remind. 
+
+PBI-305 (User Backend): Dynamic Parking Fee Calculation Engine which will analyze the duration, base rates, time-of-day fee, and promo codes. 
+
+PBI-306 (User Backend): Processing additional charges and updating the duration of parking as per user demand; Auto Parking Session Extension Handler functionality added. 
+
+PBI-307 (User Backend): User Refund & Cancellation Workflow processing automated refunds based on cancellation policy rules.
+
+Operator-Facing Backend Processes:
+
+PBI-309 (Operator Backend):Occupancy Tracking Engine synchronizing physical sensor/gate triggers with the database spot availability. 
+
+PBI-310 (Operator Backend): Automated Overstay Detection for vehicles that overstay. 
+
+PBI-311 (Operator Backend): Automated Dynamic Pricing Algorithm rate changes according to the current booking rates. 
+
+
+
