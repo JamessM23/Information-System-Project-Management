@@ -1,4 +1,7 @@
-| **R-01** | Technical | Sensor hardware failure due to weather, vandalism, or signal interference | High | High | **High** | Deploy ruggedized weather/tamper-proof enclosures (IP67+ rated) and implement daily heartbeat/health checks. | Lead Hardware Engineer |
+
+| Risk ID | Category | Risk Event Desription | Probability | Impact | Severity | Mitigation Strategy | Risk Owner |
+
+| **R-01** | Technical | Sensor hardware failure due to weather, vandalism, or signal interference | High | High | **High** | Deploy weather/tamper-proof enclosures | Lead Hardware Engineer |
 | **R-02** | Technical | High real-time latency between sensors, server, and mobile app | Medium | High | **High** | Implement local edge processing, WebSocket/MQTT streaming, and aggressive CDN caching for low-latency updates. | Lead Software Architect |
 | **R-03** | Technical | System performance degradation or crashes during peak traffic spikes | Medium | High | **High** | Utilize auto-scaling cloud infrastructure, load balancing, and stress-test using simulated API load spikes. | DevOps Lead |
 | **R-04** | Technical | Third-party payment gateway integration failures causing failed transactions | Low | High | **Medium** | Implement failover fallback payment providers and queue offline payment authorizations gracefully. | Backend Lead |
