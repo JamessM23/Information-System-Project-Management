@@ -1,1 +1,36 @@
-Risks
+Risks 
+
+**Technical Risks **
+
+
+
+* In parking areas, hardware sensors may give false occupancy signals, or become degraded or malfunction because of weather, vandalism or signal interference. 
+* Users may find that a spot that is available in the field sensor isn't available in the backend server and/or mobile application, which could cause a delay. 
+* Scalability & Load Spikes: During peak hours, many locations may be pinging at the same time as payment transactions, which can lead to system performance issues and/or system crashes. 
+* Third-Party Payment Gateway Integration Failures: Third party payment gateway integration failures issues are faced during the payment process. 
+
+**Schedule risks**
+
+
+
+*  Regulatory Permit Delays: Time taken to start installing physical equipment, network or street signage in public areas. 
+* Supply Chain Hardware Delivery Lead Times: Supply chain delays leading to hardware (sensors, gateways) delays. 
+* Severe Weather/Seasonal Delays: outdoor sensor installation is being delayed by severe weather conditions. 
+
+**Financial risks**
+
+
+
+* Incorrect Revenue Projection / User Adoption Gap: Users may not be accepting the service as planned, or perhaps there may be low conversions to paid parking reservations which can delay 
+* Subcontracted Hardware Installer / Contractor Quality & Reliability Issues: When subcontracted hardware installers or third party software auditors do not provide what is required to the specified quality or timelines. 
+* Poorly qualified field technicians: Limited number of qualified electricians and network technicians training and certifying to install and troubleshoot city-wide IoT gateway equipment. 
+* Vandalism, Physical Tampering: Driver and/or pedestrian abuse of surface mounted sensors, roadside gateways, or smart parking bollards that require frequent physical security actions. 
+
+**People Risk**
+
+
+
+*  Loss of key engineering leads/product managers mid project; loss of knowledge and delays in onboarding. 
+* Vendor / Contractor Reliability & Quality Issues: Subcontracted hardware installers and third-party software auditors who don't meet requirements. 
+* Not enough Qualified Field Technicians: Not enough electricians and network technicians qualified to install and troubleshoot hardware, causing delays in deployment. 
+* Vandalism/Physical Tampering: Drivers or pedestrians damage or tamper with the sensors.
