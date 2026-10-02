@@ -1,0 +1,18 @@
+#### **1. Meeting Cadence per Team**
+
+
+
+* **Executive & Steering Committee (Monthly):** Strategic alignment, budget authorization, major escalation decisions, and high-severity risk reviews.
+* **Core Project / Lead Team (Bi-Weekly / Weekly):** Timeline reviews, cross-departmental dependency tracking, and key milestone sign-offs.
+* **Engineering & Development Team (Weekly Sync / Daily Standups):** Sprint planning and load testing.
+* **Field Operations & Logistics Team (Weekly Sync):** Site survey reviews, installer scheduling, weather/permit tracking, and physical hardware deployment progress.
+* **Subcontractors & Vendor Partners (Bi-Weekly / Monthly Sync):** SLA compliance, quality spot-check findings, certification progress, and field delivery updates.
+
+
+#### **2. Reporting Methods & Channels**
+
+
+
+* **Real-Time Escalations (Microsoft Teams):** Immediate notification channels for critical system outages, sensor data discrepancies, or urgent field safety incidents.
+* **Weekly Project Status Dashboard (Jira / Asana):** Operational tracking of active tasks, permit approvals, hardware supply lead times, and open risks.
+* **Monthly Executive Report (PDF Briefing):** High-level summary detailing budget status, conversion metrics, milestone completion, and critical risk mitigations.
